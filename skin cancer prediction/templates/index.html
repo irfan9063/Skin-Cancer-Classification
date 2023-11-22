@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skin Cancer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="static\superficial-spreading-melanoma.png" type="image/x-icon">  
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@400;500;600&family=Raleway:wght@800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <nav
+      id="mainNavbar"
+      class="navbar navbar-expand-lg bg-body-tertiary px-4"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SkinCancer</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#overview"
+                >Overview</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#types">Types</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#treatment">Treatment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#prevention">Prevention</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#upload">Upload</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="intro d-flex align-items-center justify-content-center mb-5">
+        <div class="first">
+          <h1 class="display-1 px-2 py-3 text-center">Skin Cancer 101</h1>
+          <h2 class="mt-5 text-center">
+            What You Need to Know About Cancers Of Skin
+          </h2>
+        </div>
+      </div>
+
+      <div class="row overview mb-5">
+        <div id="overview" class="col-4 border-top px-5">
+          <h1 class="pt-5">Overview</h1>
+        </div>
+        <div class="col">
+          <p class="pt-5 px-5">
+            Skin cancer is one of the most common forms of cancer worldwide. It
+            occurs when the skin cells undergo abnormal changes and grow
+            uncontrollably. The skin, being the body's largest organ, is
+            vulnerable to the damaging effects of ultraviolet (UV) radiation
+            from the sun, tanning beds, and other sources. Skin cancer can be
+            broadly categorized into three main types: basal cell carcinoma,
+            squamous cell carcinoma, and melanoma. However, there are several
+            subtypes and classes of skin cancer, each with its unique
+            characteristics and potential risks.
+          </p>
+          <!-- <div class="px-5">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPGBxchqb2Xxpu14z-AICmiNgM-ufHWMnC4M9TTbeE_abDtxRnk7CS3pywlMz3sm9O_WI&usqp=CAU"
+              class="img-fluid"
+              alt=""
+            />
+          </div> -->
+        </div>
+      </div>
+
+      <div id="types" class="row overview mb-5">
+        <div class="col-4 border-top px-5">
+          <h1 class="pt-5">Types</h1>
+        </div>
+        <div class="col">
+          <div class="different">
+            <h1 class="py-5 text-center">The Seven Classes of Skin Cancer:</h1>
+            <p>
+              <strong> Keratoses and Intraepithelial Carcinoma (AKIEC):</strong>
+              Actinic keratoses are precancerous lesions caused by long-term sun
+              exposure. They appear as rough, scaly patches on the skin and have
+              the potential to progress into invasive squamous cell carcinoma.
+              Intraepithelial carcinoma, or Bowen's disease, refers to
+              early-stage squamous cell carcinoma confined to the epidermis.
+            </p>
+
+            <p>
+              <strong>Basal Cell Carcinoma (BCC): </strong>
+              BCC is the most common form of skin cancer. It typically arises in
+              the basal cells of the epidermis and is slow-growing. BCC usually
+              appears as a pearly bump, often with visible blood vessels and a
+              central crater-like depression.
+            </p>
+
+            <p>
+              <strong>Benign Keratosis-Like Lesions (BKL):</strong>
+              This category includes various non-cancerous skin growths, such as
+              solar lentigines (age spots) and seborrheic keratoses. While these
+              lesions are generally benign, they can resemble malignant growths,
+              and it's essential to distinguish them from true skin cancer.
+            </p>
+
+            <p>
+              <strong>Dermatofibroma (DF):</strong>
+              Dermatofibromas are benign skin tumors that can sometimes be
+              mistaken for skin cancer due to their brownish color and firm
+              texture. They are generally harmless and often appear on the legs.
+            </p>
+
+            <p>
+              <strong>Melanoma (MEL):</strong>
+              Melanoma is the most dangerous form of skin cancer. It originates
+              in melanocytes, the cells responsible for producing skin pigment.
+              Melanoma often presents as an irregular, dark-colored mole or skin
+              lesion. Early detection is crucial, as it can rapidly spread to
+              other parts of the body if not treated promptly.
+            </p>
+
+            <p>
+              <strong>Melanocytic Nevi (NV):</strong>
+              These are commonly known as moles. Most moles are benign, but some
+              may transform into melanoma. Regular monitoring and dermatological
+              assessment of moles are essential to detect any suspicious
+              changes.
+            </p>
+
+            <p>
+              <strong>Vascular Lesions:</strong>
+              This class includes various benign skin conditions like angiomas,
+              angiokeratomas, pyogenic granulomas, and hemorrhage vascular
+              lesions. They are characterized by abnormalities in blood vessels,
+              resulting in skin discoloration, bumps, or red, vascular spots.
+            </p>
+
+            <h2 class="mt-5">How common is skin cancer?</h2>
+            <p id="treatment">
+              Skin cancer is the most common cancer diagnosed in the U.S. In
+              fact, about 1 in 5 people develop skin cancer at some point in
+              their life.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row overview mb-5">
+        <div class="col-4 border-top px-5">
+          <h1 class="pt-5">Management and Treatment</h1>
+        </div>
+        <div class="col">
+          <div class="treatment">
+            <h2 class="pt-5">How is skin cancer treated?</h2>
+            <p>
+              Treatment depends on the stage of cancer. Sometimes, a biopsy
+              alone can remove all the cancer tissue if it’s small and limited
+              to the surface of your skin. Other common skin cancer treatments,
+              used alone or in combination, include:
+            </p>
+            <ul>
+              <li>
+                <strong>Cryotherapy:</strong>
+                <span
+                  >Your dermatologist uses liquid nitrogen to freeze skin
+                  cancer. The dead cells slough off after treatment.</span
+                >
+              </li>
+              <li>
+                <strong>Excisional surgery:</strong>
+                <span
+                  >Your dermatologist removes the tumor and some surrounding
+                  healthy skin to be sure all the cancer is gone.</span
+                >
+              </li>
+              <li>
+                <strong>Mohs surgery:</strong>
+                <span
+                  >Your dermatologist removes only diseased tissue, saving as
+                  much surrounding normal tissue as possible. Providers use this
+                  to treat basal cell and squamous cell cancers and, sometimes,
+                  other skin cancers that develop near sensitive or cosmetically
+                  important areas, like your eyelids, ears, lips, forehead,
+                  scalp, fingers or genital area.</span
+                >
+              </li>
+              <li>
+                <strong>Curettage and electrodesiccation:</strong>
+                <span
+                  >Your dermatologist uses an instrument with a sharp, looped
+                  edge to remove cancer cells as it scrapes across the tumor.
+                  Then, they use an electric needle to destroy any remaining
+                  cancer cells. Providers often use this to treat basal cell and
+                  squamous cell cancers and precancerous skin tumors.
+                </span>
+              </li>
+              <li>
+                <strong>Chemotherapy:</strong>
+                <span>
+                  Your Your dermatologist or oncologist uses medications to kill
+                  cancer cells. Anticancer medications can be applied directly
+                  on the skin (topical chemotherapy) if limited to your skin’s
+                  top layer or provided through pills or an IV if the cancer has
+                  spread to other parts of your body.</span
+                >
+              </li>
+              <li>
+                <strong>Immunotherapy:</strong>
+                <span
+                  >Your oncologist gives you medications to train your immune
+                  system to kill cancer cells.</span
+                >
+              </li>
+              <li>
+                <strong>Radiation therapy:</strong>
+                <span
+                  >Your radiation oncologist uses radiation (strong beams of
+                  energy) to kill cancer cells or keep them from growing and
+                  dividing.</span
+                >
+              </li>
+              <li id="prevention">
+                <strong>Photodynamic therapy:</strong>
+                <span
+                  >Your dermatologist coats your skin with medication, which
+                  they activate with a blue or red fluorescent light. This
+                  therapy destroys precancerous cells while leaving normal cells
+                  alone.</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row overview mb-5">
+        <div class="col-4 border-top px-5">
+          <h1 class="pt-5">Prevention</h1>
+        </div>
+        <div class="col">
+          <div class="prevention">
+            <h2 class="pt-5">Can skin cancer be prevented?</h2>
+            <p class="mb-4">
+              In most cases, skin cancer can be prevented. The best way to
+              protect yourself is to avoid too much sunlight and sunburns. UV
+              rays from the sun damage your skin, and over time, this may lead
+              to skin cancer.
+            </p>
+            <h2>How can I lower my risk?</h2>
+            <p class="mb-3">
+              Ways to protect yourself from skin cancer include:
+            </p>
+            <ul>
+              <li>
+                <span>
+                  Use a broad-spectrum sunscreen with a skin protection factor
+                  (SPF) of 30 or higher. Broad-spectrum sunscreens protect
+                  against both UV-B and UV-A rays. Apply the sunscreen 30
+                  minutes before you go outside. Wear sunscreen every day, even
+                  on cloudy days and during the winter months.</span
+                >
+              </li>
+              <li>
+                <span
+                  >Wear hats with wide brims to protect your face and
+                  ears.</span
+                >
+              </li>
+              <li>
+                <span>
+                  Wear long-sleeved shirts and pants to protect your arms and
+                  legs. Look for clothing with an ultraviolet protection factor
+                  label for extra protection.</span
+                >
+              </li>
+              <li>
+                <span>
+                  Wear sunglasses to protect your eyes. Look for glasses that
+                  block both UV-B and UV-A rays.</span
+                >
+              </li>
+              <li><span>Use a lip balm with sunscreen.</span></li>
+              <li><span>Avoid the sun between 10 a.m. and 4 p.m.</span></li>
+              <li>
+                <span>
+                  Avoid tanning beds. If you want a tanned look, use a spray-on
+                  tanning product.</span
+                >
+              </li>
+              <li>
+                <span>
+                  Ask your healthcare provider or pharmacist if any of the
+                  medications you take make your skin more sensitive to
+                  sunlight. Some medications known to make your skin more
+                  sensitive to the sun include tetracycline and fluoroquinolone
+                  antibiotics, tricyclic antibiotics, the antifungal agent
+                  griseofulvin and statin cholesterol-lowering drugs.</span
+                >
+              </li>
+              <li>
+                <span>
+                  Regularly check all your skin for any changes in size, shape
+                  or color of skin growths or the development of new skin spots.
+                  Don’t forget to check your scalp, ears, the palms of your
+                  hands, soles of your feet, between your toes, your genital
+                  area and between your buttocks. Use mirrors and even take
+                  pictures to help identify changes in your skin over time. Make
+                  an appointment for a full-body skin exam with your
+                  dermatologist if you notice any changes in a mole or other
+                  skin spot.</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="upload" class="row overview mb-5">
+        <div class="col-4 border-top px-5">
+          <h1 class="pt-5">Image Upload</h1>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center">
+          <form id="image-form" enctype="multipart/form-data" method="post" action="/">
+            <input type="file" id="image-input" accept="image/*" name="file" autocomplete="off" required/>
+            <input type="submit" id="upload-button" name="submit" value="Submit" style="
+            display: inline-block;
+            outline: 0;
+            cursor: pointer;
+            border: 1px solid #1d1c1d4d;
+            font-weight: 700;
+            background: #fff;
+            padding: 0 12px 1px;
+            font-size: 15px;
+            border-radius: 4px;
+            color: rgb(29, 28, 29);
+            height: 36px;
+            transition: all 80ms linear;
+            :hover{
+                box-shadow: 0 1px 3px 0 rgb(0 0 0 / 8%);
+                background: rgba(248,248,248,1);
+            }
+            ">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="col d-flex align-items-center justify-content-center">
+      <p>
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        Diagnosis for the uploaded image is: <u><h5 style="margin-right: 100px; margin-left: 25px;">{{ messages[0] }}</h5></u><br>
+        <img src="{{ messages[1] }}" width="300", height="225">
+        {% endif %}
+        {% endwith %}
+      </p>
+    </div>
+
+
+    <!--<script>
+      // JavaScript to handle image upload and store the selected image
+      let selectedImage = null;
+      const imageInput = document.getElementById("image-input");
+      const uploadButton = document.getElementById("upload-button");
+
+      imageInput.addEventListener("change", () => {
+        selectedImage = imageInput.files[0];
+      });
+
+      uploadButton.addEventListener("click", () => {
+        if (selectedImage) {
+          // You can access the selected image using the 'selectedImage' variable
+          console.log("Image selected:", selectedImage.name);
+
+          // You can perform additional actions with the selected image here.
+          // For example, you can send it to a server using AJAX.
+        } else {
+          console.log("Please select an image before uploading.");
+        }
+      });
+    </script>-->
+
+    <!-- <div class="container">
+      <div id="overview" class="row mb-3">
+        <div class="col-8">
+          <div class="overview d-flex align-items-center">
+            <div>
+              <h1 class="display-3 mb-4">Overview of Skin Cancer:</h1>
+              <p class="px-3 py-1">
+                Skin cancer is one of the most common forms of cancer worldwide.
+                It occurs when the skin cells undergo abnormal changes and grow
+                uncontrollably. The skin, being the body's largest organ, is
+                vulnerable to the damaging effects of ultraviolet (UV) radiation
+                from the sun, tanning beds, and other sources. Skin cancer can
+                be broadly categorized into three main types: basal cell
+                carcinoma, squamous cell carcinoma, and melanoma. However, there
+                are several subtypes and classes of skin cancer, each with its
+                unique characteristics and potential risks.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex align-items-center">
+          <img
+            src="https://images.unsplash.com/photo-1580281657527-47f249e8f4df?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjM0fHxza2luJTIwY2FuY2VyfGVufDB8fDB8fHww"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+        <div id="types"></div>
+      </div>
+
+      <div class="row justify-content-center mb-5">
+        <h1 class="display-4 text-center mb-4">
+          The Seven Classes of Skin Cancer:
+        </h1>
+        <div class="col-10">
+          <div class="different">
+            <p>
+              <strong> Keratoses and Intraepithelial Carcinoma (AKIEC):</strong>
+              Actinic keratoses are precancerous lesions caused by long-term sun
+              exposure. They appear as rough, scaly patches on the skin and have
+              the potential to progress into invasive squamous cell carcinoma.
+              Intraepithelial carcinoma, or Bowen's disease, refers to
+              early-stage squamous cell carcinoma confined to the epidermis.
+            </p>
+
+            <p>
+              <strong>Basal Cell Carcinoma (BCC): </strong>
+              BCC is the most common form of skin cancer. It typically arises in
+              the basal cells of the epidermis and is slow-growing. BCC usually
+              appears as a pearly bump, often with visible blood vessels and a
+              central crater-like depression.
+            </p>
+
+            <p>
+              <strong>Benign Keratosis-Like Lesions (BKL):</strong>
+              This category includes various non-cancerous skin growths, such as
+              solar lentigines (age spots) and seborrheic keratoses. While these
+              lesions are generally benign, they can resemble malignant growths,
+              and it's essential to distinguish them from true skin cancer.
+            </p>
+
+            <p>
+              <strong>Dermatofibroma (DF):</strong>
+              Dermatofibromas are benign skin tumors that can sometimes be
+              mistaken for skin cancer due to their brownish color and firm
+              texture. They are generally harmless and often appear on the legs.
+            </p>
+
+            <p>
+              <strong>Melanoma (MEL):</strong>
+              Melanoma is the most dangerous form of skin cancer. It originates
+              in melanocytes, the cells responsible for producing skin pigment.
+              Melanoma often presents as an irregular, dark-colored mole or skin
+              lesion. Early detection is crucial, as it can rapidly spread to
+              other parts of the body if not treated promptly.
+            </p>
+
+            <p>
+              <strong>Melanocytic Nevi (NV):</strong>
+              These are commonly known as moles. Most moles are benign, but some
+              may transform into melanoma. Regular monitoring and dermatological
+              assessment of moles are essential to detect any suspicious
+              changes.
+            </p>
+
+            <p>
+              <strong>Vascular Lesions:</strong>
+              This class includes various benign skin conditions like angiomas,
+              angiokeratomas, pyogenic granulomas, and hemorrhage vascular
+              lesions. They are characterized by abnormalities in blood vessels,
+              resulting in skin discoloration, bumps, or red, vascular spots.
+            </p>
+
+            <h2 class="mt-5">How common is skin cancer?</h2>
+            <p id="treatment">
+              Skin cancer is the most common cancer diagnosed in the U.S. In
+              fact, about 1 in 5 people develop skin cancer at some point in
+              their life.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-5">
+        <h1 class="display-4 text-center mb-4">Management and Treatment:</h1>
+        <div class="col-10">
+          <div class="treatment">
+            <h2>How is skin cancer treated?</h2>
+            <p>
+              Treatment depends on the stage of cancer. Sometimes, a biopsy
+              alone can remove all the cancer tissue if it’s small and limited
+              to the surface of your skin. Other common skin cancer treatments,
+              used alone or in combination, include:
+            </p>
+            <ul>
+              <li>
+                <strong>Cryotherapy:</strong>
+                <span
+                  >Your dermatologist uses liquid nitrogen to freeze skin
+                  cancer. The dead cells slough off after treatment.</span
+                >
+              </li>
+              <li>
+                <strong>Excisional surgery:</strong>
+                <span
+                  >Your dermatologist removes the tumor and some surrounding
+                  healthy skin to be sure all the cancer is gone.</span
+                >
+              </li>
+              <li>
+                <strong>Mohs surgery:</strong>
+                <span
+                  >Your dermatologist removes only diseased tissue, saving as
+                  much surrounding normal tissue as possible. Providers use this
+                  to treat basal cell and squamous cell cancers and, sometimes,
+                  other skin cancers that develop near sensitive or cosmetically
+                  important areas, like your eyelids, ears, lips, forehead,
+                  scalp, fingers or genital area.</span
+                >
+              </li>
+              <li>
+                <strong>Curettage and electrodesiccation:</strong>
+                <span
+                  >Your dermatologist uses an instrument with a sharp, looped
+                  edge to remove cancer cells as it scrapes across the tumor.
+                  Then, they use an electric needle to destroy any remaining
+                  cancer cells. Providers often use this to treat basal cell and
+                  squamous cell cancers and precancerous skin tumors.
+                </span>
+              </li>
+              <li>
+                <strong>Chemotherapy:</strong>
+                <span>
+                  Your Your dermatologist or oncologist uses medications to kill
+                  cancer cells. Anticancer medications can be applied directly
+                  on the skin (topical chemotherapy) if limited to your skin’s
+                  top layer or provided through pills or an IV if the cancer has
+                  spread to other parts of your body.</span
+                >
+              </li>
+              <li>
+                <strong>Immunotherapy:</strong>
+                <span
+                  >Your oncologist gives you medications to train your immune
+                  system to kill cancer cells.</span
+                >
+              </li>
+              <li>
+                <strong>Radiation therapy:</strong>
+                <span
+                  >Your radiation oncologist uses radiation (strong beams of
+                  energy) to kill cancer cells or keep them from growing and
+                  dividing.</span
+                >
+              </li>
+              <li id="prevention">
+                <strong>Photodynamic therapy:</strong>
+                <span
+                  >Your dermatologist coats your skin with medication, which
+                  they activate with a blue or red fluorescent light. This
+                  therapy destroys precancerous cells while leaving normal cells
+                  alone.</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <h1 class="display-4 text-center mb-4">Prevention:</h1>
+        <div class="col-10">
+          <div class="prevention">
+            <h2>Can skin cancer be prevented?</h2>
+            <p class="mb-4">
+              In most cases, skin cancer can be prevented. The best way to
+              protect yourself is to avoid too much sunlight and sunburns. UV
+              rays from the sun damage your skin, and over time, this may lead
+              to skin cancer.
+            </p>
+            <h2>How can I lower my risk?</h2>
+            <p class="mb-3">
+              Ways to protect yourself from skin cancer include:
+            </p>
+            <ul>
+              <li>
+                <span>
+                  Use a broad-spectrum sunscreen with a skin protection factor
+                  (SPF) of 30 or higher. Broad-spectrum sunscreens protect
+                  against both UV-B and UV-A rays. Apply the sunscreen 30
+                  minutes before you go outside. Wear sunscreen every day, even
+                  on cloudy days and during the winter months.</span
+                >
+              </li>
+              <li>
+                <span
+                  >Wear hats with wide brims to protect your face and
+                  ears.</span
+                >
+              </li>
+              <li>
+                <span>
+                  Wear long-sleeved shirts and pants to protect your arms and
+                  legs. Look for clothing with an ultraviolet protection factor
+                  label for extra protection.</span
+                >
+              </li>
+              <li>
+                <span>
+                  Wear sunglasses to protect your eyes. Look for glasses that
+                  block both UV-B and UV-A rays.</span
+                >
+              </li>
+              <li><span>Use a lip balm with sunscreen.</span></li>
+              <li><span>Avoid the sun between 10 a.m. and 4 p.m.</span></li>
+              <li>
+                <span>
+                  Avoid tanning beds. If you want a tanned look, use a spray-on
+                  tanning product.</span
+                >
+              </li>
+              <li>
+                <span>
+                  Ask your healthcare provider or pharmacist if any of the
+                  medications you take make your skin more sensitive to
+                  sunlight. Some medications known to make your skin more
+                  sensitive to the sun include tetracycline and fluoroquinolone
+                  antibiotics, tricyclic antibiotics, the antifungal agent
+                  griseofulvin and statin cholesterol-lowering drugs.</span
+                >
+              </li>
+              <li>
+                <span>
+                  Regularly check all your skin for any changes in size, shape
+                  or color of skin growths or the development of new skin spots.
+                  Don’t forget to check your scalp, ears, the palms of your
+                  hands, soles of your feet, between your toes, your genital
+                  area and between your buttocks. Use mirrors and even take
+                  pictures to help identify changes in your skin over time. Make
+                  an appointment for a full-body skin exam with your
+                  dermatologist if you notice any changes in a mole or other
+                  skin spot.</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </body>
+  <footer>
+    <nav
+      id="mainNavbar"
+      class="navbar navbar-expand-lg bg-body-tertiary px-4 mt-4" style="height: 100px;"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="font-size: 14px;">Skin Cancer Classification © 2023</a>
+        <!-- <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#overview"
+                >Overview</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#types">Types</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#treatment">Treatment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#prevention">Prevention</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#upload">Upload</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </footer>
+</html>
